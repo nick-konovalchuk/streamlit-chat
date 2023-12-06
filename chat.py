@@ -38,7 +38,8 @@ if "user" not in st.session_state:
 message(
     """Hello!
 I'm FizzBuzz Llama.
-Please, enter something"""
+Please, enter something""",
+    logo=default_logo,
 )
 
 for i, (user_message, bot_message) in enumerate(
